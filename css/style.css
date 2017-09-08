@@ -60,7 +60,7 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
+  height: 100px;
 
 }
 
@@ -79,15 +79,46 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+nav .navigation {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 400px;
+}
+
+.navigation a:hover {
+    color: #f9e42e;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
 
 h1.logo {
     font-family: 'open sans' semibold;
     font-size: 34px;
     font-style: bold;
     color: #fff;
-    padding: 0px 40px 20px 60px;
-    margin-top: 20px;
     letter-spacing: 2px;
+    float: left;
+    padding-left: 80px;
 }
 
 .slogan {
@@ -95,6 +126,7 @@ h1.logo {
   font-size: 36px;
   color: #fff;
   letter-spacing: 2px;
+  padding-top: 80px;
 }
 
 
@@ -137,14 +169,12 @@ button {
 }
 
 .sign-up-now-button {
-  background-color: #f9e42e;
-  margin: 200px;
-  margin-top: 100px;
-  margin-left: 580px;
-  margin-bottom: 200px;
-  text-align: center;
-  display: inline-block;
+  color: #121212;
   font-size: 24px;
+  font-weight: bold;
+  background-color: #f9e42e;
+  text-align: center;
+  margin: 60px 60px 60px 580px;
 }
 
 section {
@@ -161,12 +191,15 @@ aside {
 }
 
 .testamonial {
+  color: #fff;
   font-family: 'Open Sans', thin;
   font-style: italic;
-	color: #fff;
-	font-size: 36px;
-  padding: 100px 0 0px 400px;
-  width: 1000px;
+  font-size: 36px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  padding-top: 100px;
 }
 
 asidebox .by-line {
